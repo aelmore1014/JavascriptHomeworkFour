@@ -4,15 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.m.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css" />
     <title>Javascript Quiz</title>
 </head>
 <body>
-    <row> 
+    <h1>Javascript Quiz</h1>
+    <div class= "startButtonDiv">
+<button type = "button" class="startButton">Start</button>
+</div>
+<div id= "highScores">View High Scores</div>
+<div id= "timer">Timer:</div>
+<div id= "questions"></div>
+<div id="answers">
+<button type="button" id= "button0" style= "display: none"></button>
+<button type="button" id= "button1" style= "display: none"></button>
+<button type="button" id= "button2" style= "display: none"></button>
+<button type="button" id= "button3" style= "display: none"></button>
+</div>
+<!-- This is for ending the game and calculating your score -->
+<div id="gameOver">
+    <p id="endingScore"></p>
+    <div id="initialsHere">
+        <form id= "initialsInputDiv">
+            <h3>Type you initials here:</h3>
+            <input type="text" placeholder= "type your initials" name= "initials" id="initialsInput">
+            <button id="initialSubmit">Submit</button>
+        </form>
+ </div>
+ </div>
+</div>
+<div id = "wrongOrRight">
+    <p></p>
+</div>
+<div id = "highScoresDiv">
+    <p></p>
+    <button id= "clear">Clear All Scores</button>
+    <button id= "restart">Restart Quiz</button>
+    <div id = "highScoresDisplay"><p></p></div>
 
 </div>
 
 
-    </div>
+
+        
+
+
+
+
+
+
     
+    
+<script type="text/Javascript" src="questions.js"></script>
 </body>
 </html>
