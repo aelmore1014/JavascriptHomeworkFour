@@ -1,2 +1,2 @@
 # JavascriptHomeworkFour
-![alt text]"Description goes here")
+![Alt text](assets/Screenshot(3).png?raw=true "Optional Title")
