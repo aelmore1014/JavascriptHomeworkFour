@@ -80,7 +80,7 @@ var lastQuestion = questions.length - 1;
 function startQuiz(){
 
   if(questionCounter <= lastQuestion){
-  // Displays question and displays answers in the form of buttons
+ 
  var currentQ = questions[questionCounter].title;
  displayQuestions.innerHTML = currentQ;
 
